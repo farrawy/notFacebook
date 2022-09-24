@@ -1,6 +1,7 @@
 # notFacebook (Better than Facebook)
 ![notFacebook](https://res.cloudinary.com/dqoijovud/image/upload/v1664050655/readme_v8krlg.png)
 
+## This is the Frontend part, Backend is coming later
 ## Facebook Clone built using React Native and Expo-Cli
 
 ## To Run the app: 
