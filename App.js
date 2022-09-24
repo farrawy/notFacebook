@@ -1,11 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, SafeAreaView, View } from "react-native";
+import { colors } from "./constants/colors";
+import Navigator from "./src/navigation";
+import { NavigationContainer } from "@react-navigation/native";
+
+const theme = true;
+let color;
+if (theme) {
+  color = colors.light;
+} else {
+  color = colors.dark;
+}
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Navigator />
+
+      <StatusBar style={theme ? "dark" : "light"} translucent />
     </View>
   );
 }
@@ -13,8 +26,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });
