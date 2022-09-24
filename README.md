@@ -1,4 +1,4 @@
-# notFacebook
+# notFacebook (Better than Facebook)
 ![notFacebook](https://res.cloudinary.com/dqoijovud/image/upload/v1664050655/readme_v8krlg.png)
 
 ## Facebook Clone built using React Native and Expo-Cli
