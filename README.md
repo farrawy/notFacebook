@@ -3,7 +3,7 @@
 
 ## Facebook Clone built using React Native and Expo-Cli
 
-**To Run the app: 
+** To Run the app: 
 ## Run npm install 
 ## cd to the folder's directory
 ## Run npm start
